@@ -1,0 +1,44 @@
+import React from "react";
+
+export default function App() {
+  let name = "Angel";
+  const names = ["Piggie", "Bella", "Zion", "Arya"];
+  const ooo = "o".toUpperCase().repeat(5);
+  const loggedIn = true;
+
+  // if (loggedIn) {
+  //   return (
+  //     <ul>
+  //       {names.map((name, idx) => (
+  //         <li id={idx}>{name}</li>
+  //       ))}
+  //     </ul>
+  //   );
+  // }
+
+  return (
+    <div>
+      <h1 className="text-3xl font-bold underline">
+        HEY{ooo} {name}
+      </h1>
+      {/* {loggedIn ? (
+        <ul>
+          {names.map((name, idx) => (
+            <li id={idx}>{name}</li>
+          ))}
+        </ul>
+      ) : null} */}
+      {loggedIn && (
+        <>
+          <h1 className="text-3xl">Logegd In</h1>
+          <hr />
+          <ul>
+            {names.map((name, idx) => (
+              <li id={idx}>{name}</li>
+            ))}
+          </ul>
+        </>
+      )}
+    </div>
+  );
+}
