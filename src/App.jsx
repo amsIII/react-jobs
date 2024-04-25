@@ -47,7 +47,7 @@ const App = () => {
       </nav>
 
       {/* <!-- Hero --> */}
-      {/* <section className="bg-indigo-700 py-20 mb-4">
+      <section className="bg-indigo-700 py-20 mb-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
@@ -58,10 +58,10 @@ const App = () => {
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* <!-- Developers and Employers --> */}
-      {/* <section className="py-4">
+      <section className="py-4">
         <div className="container-xl lg:container m-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
             <div className="bg-gray-100 p-6 rounded-lg shadow-md">
@@ -90,7 +90,7 @@ const App = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* <!-- Browse Jobs --> */}
       <section className="bg-blue-50 px-4 py-10">
@@ -98,9 +98,10 @@ const App = () => {
           <h2 className="text-3xl font-bold text-indigo-500 mb-6 text-center">
             Browse Jobs
           </h2>
+          {/* Job listings */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* <!-- Job Listing 1 --> */}
-            {/* <div className="bg-white rounded-xl shadow-md relative">
+            <div className="bg-white rounded-xl shadow-md relative">
               <div className="p-4">
                 <div className="mb-6">
                   <div className="text-gray-600 my-2">Full-Time</div>
@@ -130,9 +131,9 @@ const App = () => {
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>{" "}
             {/* <!-- Job Listing 2 --> */}
-            {/* <div className="bg-white rounded-xl shadow-md relative">
+            <div className="bg-white rounded-xl shadow-md relative">
               <div className="p-4">
                 <div className="mb-6">
                   <div className="text-gray-600 my-2">Remote</div>
@@ -163,9 +164,9 @@ const App = () => {
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>
             {/* <!-- Job Listing 3 --> */}
-            {/* <div className="bg-white rounded-xl shadow-md relative">
+            <div className="bg-white rounded-xl shadow-md relative">
               <div className="p-4">
                 <div className="mb-6">
                   <div className="text-gray-600 my-2">Remote</div>
@@ -195,19 +196,19 @@ const App = () => {
                   </a>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>
 
-      {/* <section className="m-auto max-w-lg my-10 px-6">
+      <section className="m-auto max-w-lg my-10 px-6">
         <a
           href="jobs.html"
           className="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
         >
           View All Jobs
         </a>
-      </section> */}
+      </section>
     </>
   );
 };
