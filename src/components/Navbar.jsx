@@ -26,8 +26,12 @@ const Navbar = () => {
             </NavLink>
             <div className="md:ml-auto">
               <div className="flex space-x-2">
-                {navLinks.map((navLink, index) => (
-                  <NavLink key={index} to={navLink.to} className={linkClass}>
+                {navLinks.map((navLink) => (
+                  <NavLink
+                    key={navLink.linkName}
+                    to={navLink.to}
+                    className={linkClass}
+                  >
                     {navLink.linkName}
                   </NavLink>
                 ))}
