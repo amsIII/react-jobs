@@ -1,0 +1,6 @@
+[
+  { "to": "/", "linkName": "Home" },
+  { "to": "/jobs", "linkName": "Jobs" },
+  { "to": "/add-job", "linkName": "Add Job" },
+  { "to": "/jobba", "linkName": "Test" }
+]
